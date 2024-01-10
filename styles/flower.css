@@ -1,0 +1,64 @@
+/* full website's style */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* commonly shared style */
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13.5px;
+    font-weight: 400;
+    max-width: 475.5px;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+button {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+}
+
+/* header's section style */
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .banner-text * {
+    margin-bottom: 32px;
+}
+
+.banner .banner-text h1 {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    max-width: 531px;
+}
+
+.banner .banner-img img {
+    width: 100%;
+    vertical-align: middle;
+}
