@@ -98,12 +98,12 @@ header {
 }
 
 .section-content .flower .flower-img {
-    /* background-color: #eb9cab; */
     border-radius: 300px 300px 0px 0px;
     padding: 30px 25px 0;
     height: 500px;
     display: flex;
     align-items: end;
+    /* background-color: #eb9cab; */
 }
 
 .section-content .flower .flower-img img {
@@ -131,4 +131,16 @@ header {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+
+.quality-content {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.delivery {
+    
 }
