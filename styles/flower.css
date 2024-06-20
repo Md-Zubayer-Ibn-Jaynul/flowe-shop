@@ -138,12 +138,12 @@ header {
     background: rgba(39, 39, 39, 0.05);
     display: flex;
     justify-content: space-evenly;
-    /* height: 320px; */
+    height: 320px;
     align-items: center;
 }
 
 .delivery {
-    height: 320px;
+    /* height: 320px; */
     /* padding: 0px 80px; */
     /* max-width: 375px; */
     /* align-items: center; */
