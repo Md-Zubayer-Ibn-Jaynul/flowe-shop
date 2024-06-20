@@ -27,18 +27,41 @@ button {
     background: #E55473;
     padding: 20px 43px;
     border: none;
+    cursor: pointer;
+    transition: all 1s;
 }
 
-/* header's section style */
-
-header {
-    background-color: rgba(229, 84, 115, 0.10);
+button:hover {
+    background: #ff0037;
 }
 
 .container {
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+/* header's section style */
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
 }
 
 .banner {
@@ -61,4 +84,51 @@ header {
 .banner .banner-img img {
     width: 100%;
     vertical-align: middle;
+}
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+
+.section-content .flower .flower-img {
+    /* background-color: #eb9cab; */
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.section-content .flower .flower-img img {
+    width: 100%;
+}
+
+.section-content .flower .pink {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower .blue {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower .green {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower p {
+    color: #272727;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
