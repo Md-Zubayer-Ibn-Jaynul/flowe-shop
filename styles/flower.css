@@ -143,16 +143,7 @@ header {
 }
 
 .delivery {
-    /* height: 320px; */
-    /* padding: 0px 80px; */
-    /* max-width: 375px; */
-    /* align-items: center; */
-}
-
-.delivery-img {
-    /* padding: 0px 142px; */
-    /* max-width: 375px; */
-    /* align-items: center; */
+    text-align: center;
 }
 
 .delivery p {
