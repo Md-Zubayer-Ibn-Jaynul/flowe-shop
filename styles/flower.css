@@ -133,6 +133,10 @@ header {
     text-decoration-line: underline;
 }
 
+#support {
+    padding: 0 0 100px 0;
+}
+
 .quality-content {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
