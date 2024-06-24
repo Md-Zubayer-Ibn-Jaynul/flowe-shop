@@ -14,7 +14,7 @@ p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 22.5px;
     /* 166.667% */
 }
 
@@ -43,7 +43,7 @@ button:hover {
 .section-heading {
     max-width: 445.5px;
     text-align: center;
-    margin: 20px auto;
+    margin: 36px auto;
 }
 
 .section-heading h2 {
@@ -201,4 +201,13 @@ header,
 
 #hot-deal .hot-deal-img {
     max-width: 318px;
+}
+
+#instagram .section-heading p {
+    font-size: 13.5px;
+}
+
+.img-section {
+    display: flex;
+    gap: 18px;
 }
