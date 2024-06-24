@@ -207,11 +207,37 @@ header,
     font-size: 13.5px;
 }
 
-.img-section {
+#instagram .img-section {
     display: flex;
     gap: 18px;
 }
 
+#subscribe {
+    margin: 100px 0;
+}
+
+#subscribe .section-heading p {
+    font-size: 13.5px;
+}
+
 .bg-img {
-    background-image: url('../Flower-Asset/Rectangle\ 9.png');
+    background-image: url('../Flower-Asset/bg-img.png');
+    padding: 122px 0;
+}
+
+#subscribe form {
+    margin: auto;
+    max-width: 850px;
+    display: flex;
+    gap: 12px;
+}
+
+#subscribe form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 18px;
+    outline: none;
+    font-size: 16px;
 }
