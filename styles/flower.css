@@ -211,3 +211,7 @@ header,
     display: flex;
     gap: 18px;
 }
+
+.bg-img {
+    background-image: url('../Flower-Asset/Rectangle\ 9.png');
+}
